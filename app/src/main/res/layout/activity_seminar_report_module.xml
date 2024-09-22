@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.Seminar_Report_Module">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ToolbarStyle"
+        app:titleMarginTop="20dp"/>
+
+    <Button
+        android:id="@+id/addSeminar"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="Add Seminar"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/toolbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/addSeminar"
+        android:layout_margin="10dp"
+        android:background="@drawable/alert2"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/messageSeminar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/recycleView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/message"
+        android:backgroundTint="@color/green"
+        android:layout_marginRight="20dp"/>
+
+
+</RelativeLayout>

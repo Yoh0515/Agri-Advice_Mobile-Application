@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantingGuidance.Details_Plant">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ToolbarStyle"
+        app:titleMarginTop="20dp">
+
+        <TextView
+            android:id="@+id/downloadPdf"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="Download"
+            android:textSize="18sp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="end|center_vertical"
+            android:textColor="@color/white"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/piconimage"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:background="@drawable/image_background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ptitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ampalaya"
+                    android:textColor="@color/green"
+                    android:gravity="center"
+                    android:textSize="34sp"
+                    android:layout_gravity="top"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pcateg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-3dp"
+                    android:gravity="center"
+                    android:text="Fruit Vegetables"
+                    android:textSize="18sp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:id="@+id/pdescrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="6dp"
+                    android:justificationMode="inter_word"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lugar na Pagtataniman"
+                    android:textSize="22sp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/plugarpagtatanim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagtatanim"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:justificationMode="inter_word"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagpili ng Binhi"
+                    android:textColor="@color/green"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/ppagpilingbinhi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagtatanim"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:justificationMode="inter_word"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paghahanda ng Lupang Taniman"
+                    android:textColor="@color/green"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/ppaghandanglupangtaniman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagtatanim"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:justificationMode="inter_word"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagpupunla at Pagpapalit Tanim"
+                    android:textSize="22sp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/ppagpuntaatpagpalittanim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagtatanim"
+                    android:justificationMode="inter_word"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pangangalaga"
+                    android:textColor="@color/green"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/ppangangalaga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagtatanim"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:justificationMode="inter_word"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pamamahala ng Sakit at Piste"
+                    android:textSize="22sp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleViewPlant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/alert2" />
+
+                <TextView
+                    android:id="@+id/sakitatpeste"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="psakitatpeste"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pag-aani"
+                    android:textSize="22sp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/ppagaani"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagtatanim"
+                    android:layout_margin="5dp"
+                    android:padding="8dp"
+                    android:justificationMode="inter_word"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

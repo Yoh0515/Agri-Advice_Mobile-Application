@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "798360016853",
+    "firebase_url": "https://final-database-9493d-default-rtdb.firebaseio.com",
+    "project_id": "final-database-9493d",
+    "storage_bucket": "final-database-9493d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798360016853:android:73ff5f3f705e6d1f4acf5c",
+        "android_client_info": {
+          "package_name": "com.example.finalthesis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm0fK-EpPmyHfnLKHq6wVqGKSSuJWFAYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798360016853:android:332fa8b25bb824754acf5c",
+        "android_client_info": {
+          "package_name": "com.example.thesis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm0fK-EpPmyHfnLKHq6wVqGKSSuJWFAYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

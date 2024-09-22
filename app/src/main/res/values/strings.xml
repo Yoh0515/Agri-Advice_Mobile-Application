@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Final Thesis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- res/values/strings.xml -->
+    <string name="openweathermap_api_key">49cc8c821cd2aff9af04c9f98c36eb74</string>
+
+    <string-array name="barangay_array">
+        <item>Aniban I</item>
+        <item>Aniban II</item>
+        <item>Bayanan</item>
+        <item>Dulong Bayan</item>
+        <item>Habay I</item>
+        <item>Habay II</item>
+        <item>Kaingin Digman</item>
+        <item>Ligas I</item>
+        <item>Ligas II</item>
+        <item>Mabolo</item>
+        <item>Maliksi I</item>
+        <item>Maliksi II</item>
+        <item>Mambog I</item>
+        <item>Mambog II</item>
+        <item>Mambog III</item>
+        <item>Mambog IV</item>
+        <item>Molino I</item>
+        <item>Molino II</item>
+        <item>Molino III</item>
+        <item>Molino IV</item>
+        <item>Molino V</item>
+        <item>Molino VI</item>
+        <item>Molino VII</item>
+        <item>Niog</item>
+        <item>Panapaan I</item>
+        <item>Panapaan II</item>
+        <item>Panapaan III</item>
+        <item>Panapaan IV</item>
+        <item>Panapaan V</item>
+        <item>Panapaan VI</item>
+        <item>Poblacion</item>
+        <item>Queens Row Central</item>
+        <item>Queens Row East</item>
+        <item>Queens Row West</item>
+        <item>Real I</item>
+        <item>Salinas I</item>
+        <item>Salinas II</item>
+        <item>San Nicolas I</item>
+        <item>San Nicolas II</item>
+        <item>San Nicolas III</item>
+        <item>Sinbanali</item>
+        <item>Talaba I</item>
+        <item>Talaba II</item>
+        <item>Talaba III</item>
+        <item>Zapote I</item>
+        <item>Zapote II</item>
+        <item>Zapote III</item>
+    </string-array>
+
+</resources>

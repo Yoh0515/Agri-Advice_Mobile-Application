@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo22"
+        android:label="Agri-Advice"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalThesis"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Menu.ReportDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.ReportForm"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.Reports_Module"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.Details_Seminar"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.Seminar_Report_Module"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.OrderHistory2"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.OrderHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.OrderConfirmed"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.OrderDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.Order_Confirm"
+            android:exported="false" />
+        <activity
+            android:name=".PestandDisease.Activity_PestandDisease"
+            android:exported="false" />
+        <activity
+            android:name=".PestandDisease.DiseaseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.PaymentConfirmation"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.ApplyToVendor"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.MessagesAdminSeminar"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.SeminarForms"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.PaymentMethod"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.EditProfileVendor"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.PaymentDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".PestandDisease.PestDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.Product_Detail_VendorView"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.ProfileVendorView"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.ProfileView"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.PriceList"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.Sales"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.NewsUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.PlantDisease"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.MessageList"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.MessageAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".PlantingGuidance.Plant_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".PlantingGuidance.Details_Plant"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.Marketplace"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.ProductApproval"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.Save"
+            android:exported="false" />
+        <activity
+            android:name=".Menu.Order"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.AddToCart"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.VendorView"
+            android:exported="false" />
+        <activity
+            android:name=".PestandDisease.DetailsPest"
+            android:exported="false" />
+        <activity
+            android:name=".PestandDisease.DetailsDisease"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.Message"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.Product_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterModule"
+            android:exported="false" />
+        <activity
+            android:name=".Marketplace.Market_Add"
+            android:exported="false" />
+        <activity
+            android:name=".PlantingGuidance.PDFViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

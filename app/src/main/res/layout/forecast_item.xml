@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_plant"
+    android:backgroundTint="#addfad"
+    android:layout_margin="10dp"
+    android:id="@+id/daily_forecast_item">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dayOfWeekTextView"
+        android:textColor="@color/black"
+        android:text="Monday"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/weatherIconImageView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nightTemperatureTextView"
+        android:textColor="@color/black"
+        android:text="Night: 50"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dayTemperatureTextView"
+        android:textColor="@color/black"
+        android:text="Day: 50"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
